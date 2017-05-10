@@ -14,6 +14,7 @@
 		0CD309C01EC1A64900AEBCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD309BF1EC1A64900AEBCA8 /* Assets.xcassets */; };
 		0CD309C31EC1A64900AEBCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD309C11EC1A64900AEBCA8 /* LaunchScreen.storyboard */; };
 		0CD309CF1EC1AB9300AEBCA8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD309CE1EC1AB9300AEBCA8 /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0CD309D41EC2C04500AEBCA8 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD309D31EC2C04500AEBCA8 /* image0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0CD309C41EC1A64900AEBCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD309CD1EC1AB9300AEBCA8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0CD309CE1EC1AB9300AEBCA8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0CD309D31EC2C04500AEBCA8 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0CD309BA1EC1A64900AEBCA8 /* ViewController.m */,
 				0CD309CD1EC1AB9300AEBCA8 /* Person.h */,
 				0CD309CE1EC1AB9300AEBCA8 /* Person.m */,
+				0CD309D31EC2C04500AEBCA8 /* image0.png */,
 				0CD309BC1EC1A64900AEBCA8 /* Main.storyboard */,
 				0CD309BF1EC1A64900AEBCA8 /* Assets.xcassets */,
 				0CD309C11EC1A64900AEBCA8 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD309D41EC2C04500AEBCA8 /* image0.png in Resources */,
 				0CD309C31EC1A64900AEBCA8 /* LaunchScreen.storyboard in Resources */,
 				0CD309C01EC1A64900AEBCA8 /* Assets.xcassets in Resources */,
 				0CD309BE1EC1A64900AEBCA8 /* Main.storyboard in Resources */,

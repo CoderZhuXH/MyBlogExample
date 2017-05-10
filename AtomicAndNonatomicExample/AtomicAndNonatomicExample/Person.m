@@ -8,50 +8,54 @@
 
 #import "Person.h"
 
-@implementation Person
-@synthesize name = _name;
-@synthesize address = _address;
-
 //Person.m 使用 mrc 环境
 
+@implementation Person
+@synthesize icon = _icon;
+@synthesize icon1 = _icon1;
+
 #pragma mark  nonatomic
+
 //set
--(void)setName:(NSString *)name
+-(void)setIcon:(UIImage *)icon
 {
-    if(_name != name)
+    if(_icon != icon)
     {
-        [_name release];
-        [_name retain];
-        _name = name;
+        [_icon release];
+        _icon = [icon retain];
     }
 }
-
--(NSString *)name
+//get
+-(UIImage *)icon
 {
-   return _name;
+    return _icon;
 }
+
+
 
 #pragma mark - atomic
 //set
--(void)setAddress:(NSString *)address
+-(void)setIcon1:(UIImage *)icon1
 {
+    //同步代码块
     @synchronized (self) {
         
-        if(_address != address)
+        if(_icon1 != icon1)
         {
-            [_address release];
-            _address = [address retain];
+            [_icon1 release];
+            _icon1 = [icon1 retain];
         }
     }
 }
 //get
--(NSString *)address
+-(UIImage *)icon1
 {
-    NSString *result = nil;
+    UIImage *image = nil;
+    //同步代码块
     @synchronized (self) {
         
-        result = [[_address retain] autorelease];
+        image = [[_icon1 retain] autorelease];
     }
-    return result;
+    return image;
 }
 @end

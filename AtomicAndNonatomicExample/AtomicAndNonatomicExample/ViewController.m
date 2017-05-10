@@ -18,12 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    Person *per = [Person new];
-//    per.name = @"safdfasd";
-//    per.address = @"按实际的咖啡机";
-//    NSLog(@"%@-----%@",per.name,per.address);
     
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 

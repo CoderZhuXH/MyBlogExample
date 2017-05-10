@@ -11,8 +11,8 @@
 
 @interface Person : NSObject
 
-@property(nonatomic,copy)NSString *name;
+@property(nonatomic,strong)UIImage *icon;
 
-@property(copy)NSString *address;
+@property(strong)UIImage *icon1;
 
 @end
